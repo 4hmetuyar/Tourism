@@ -6,15 +6,10 @@ using System.Web.Mvc;
 
 namespace Sobx.GarzanTourism.Controllers
 {
-    public class HomeController : Controller
+    public class DestinationsController : Controller
     {
-        // GET: Home
+        // GET: Destinations
         public ActionResult Index()
-        {
-            return View();
-        }
-
-        public ActionResult AboutUs()
         {
             return View();
         }
